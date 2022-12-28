@@ -132,6 +132,7 @@
 
   .filter-content ::-webkit-input-placeholder {
     color: #000 !important;
+    font-weight: 300 !important;
   }
 
   .dropdown {
