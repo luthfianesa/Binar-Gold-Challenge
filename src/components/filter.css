@@ -125,9 +125,12 @@
     align-items: center;
   }
 
+  .filter-content ::-webkit-input-placeholder {
+    color: #000 !important;
+  }
+
   .dropdown {
     background-color: #fff !important;
-    color: #f51313 !important;
   }
 
   .button-cariMobil {
