@@ -60,7 +60,7 @@
 /* Responsive for Large Phone */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .card-detail-outer-container {
-    padding-left: 6px;
+    padding-left: 0;
   }
 
   .card-detail-inner-container {
