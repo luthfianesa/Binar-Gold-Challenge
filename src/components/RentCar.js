@@ -9,7 +9,7 @@ const RentCar = () => {
           <h1>Ayo Sewa Mobil Sekarang Juga !</h1>
         </div>
         <div className="sewaMobil-content">
-          <p>Kami berkomitmen untuk selalu menyediakan mobil kualitas terbaik dengan harga yang terjangkau. Selalu siap melayani kebutuha kamu untuk sewa mobil selama 24 jam. </p>
+          <p>Kami berkomitmen untuk selalu menyediakan mobil kualitas terbaik dengan harga yang terjangkau. Selalu siap melayani kebutuhan kamu untuk sewa mobil selama 24 jam. </p>
         </div>
         <div className="sewaMobil-content">
           <Link to="/searchcar/"><button>Mulai Sewa Mobil</button></Link>
