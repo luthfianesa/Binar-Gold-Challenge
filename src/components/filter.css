@@ -165,9 +165,14 @@
     font-size: 16px;
   }
 
+  .filter-content ::-webkit-input-placeholder {
+    color: #000 !important;
+  }
+
   .dropdown {
     width: 350px;
     font-size: 16px;
+    background-color: #fff !important;
   }
 
   .filter-content label {
@@ -248,6 +253,7 @@
     border-radius: 3px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     padding-left: 10px;
+    background-color: #fff !important;
   }
   
   
@@ -336,6 +342,7 @@
     border-radius: 3px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     padding-left: 10px;
+    background-color: #fff !important;
   }
   
   .availability {
