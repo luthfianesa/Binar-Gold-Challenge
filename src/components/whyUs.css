@@ -119,7 +119,7 @@
 /* Responsive for Medium Phone */
 @media screen and (max-width: 480px) {
   .whyUs-container {
-    padding-top: 30px;
+    padding-top: 0;
   }
 
   .why-us-heading {
