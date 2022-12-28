@@ -127,6 +127,7 @@
 
   .filter-content input {
     color: #000 !important;
+    font-weight: 400;
   }
 
   .filter-content ::-webkit-input-placeholder {
