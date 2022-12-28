@@ -35,7 +35,7 @@ const Filter = (props) => {
         <label>Status</label>
         <select onClick={props.fStatus} name="status" id="status" className="dropdown">
           <option value="" disabled selected hidden>
-            Cek Ketersedian
+            Cek Ketersediaan
           </option>
           <option value="true">Tersedia</option>
           <option value="false">Disewa</option>
