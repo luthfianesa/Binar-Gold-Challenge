@@ -55,6 +55,11 @@
   .card-detail-outer-container {
     padding-left: 6px;
   }
+
+  .card-heading-container {
+    padding-bottom: 65px;
+    padding-top: 50px;
+  }
 }
 
 /* Responsive for Large Phone */
