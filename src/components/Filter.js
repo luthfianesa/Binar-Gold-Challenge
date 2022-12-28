@@ -6,7 +6,7 @@ const Filter = (props) => {
     <div className="filter-container">
       <div className="filter-content input">
         <label>Nama Mobil</label>
-        <input onChange={props.fName} placeholder="Ketik Nama / Tipe mobil"></input>
+        <input onChange={props.fName} placeholder="Ketik Nama / Tipe mobil" className="inputFilter"></input>
       </div>
       <div className="filter-content input ">
         <label>Kategori</label>
