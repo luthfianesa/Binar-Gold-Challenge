@@ -119,11 +119,11 @@
 /* Responsive for Medium Phone */
 @media screen and (max-width: 480px) {
   .whyUs-container {
-    padding-top: 30px;
+    padding-top: 80px;
   }
 
   .why-us-heading {
-    padding-top: 50px;
+    padding-top: 120px;
     margin-left: 0;
     text-align: center;
   }
