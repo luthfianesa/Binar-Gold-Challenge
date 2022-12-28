@@ -1,0 +1,243 @@
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-content {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer-navigation {
+position: relative;
+bottom: 6px;
+right: 70px;
+}
+
+.footer-navigation .txt-ul {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.txt-li {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.connect-with-us {
+  position: relative;
+  right: 130px;
+}
+
+.connect-with-us .footer-icon {
+  margin-right: 15px;
+}
+
+.footer-content .copyright {
+position: relative;
+right: 170px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width:240px) and (max-width: 359px) {
+  .footer-container {
+    width: 359px;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width : 480px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  
+  .footer-content {
+    padding-left: 20px;
+  }
+
+  .footer-navigation {
+    padding-left: 55px;
+  }
+
+  .connect-with-us {
+    position: relative;
+    left: 0;
+    padding-left: 15px;
+  }
+
+  .copyright-footer {
+    position: relative;
+    right: 5px;
+  }
+
+  .copyright {
+    position: relative;
+    left: 0;
+    padding-top: 25px;
+  }
+
+  .footer-content img {
+    padding-top: 0;
+    padding-left: 0;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width : 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 768px;
+  }
+  
+  .footer-content {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  .footer-navigation {
+    padding-left: 55px;
+  }
+
+  .footer-navigation ul li {
+    font-size: 20px;
+  }
+
+  .connect-with-us {
+    position: relative;
+    left: 0;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
+  .copyright-footer {
+    position: relative;
+    right: 5px;
+  }
+
+  .copyright {
+    position: relative;
+    left: 0;
+    padding-top: 25px;
+  }
+
+  .footer-content img {
+    padding-top: 0;
+    padding-left: 0;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 991px;
+    padding-left: 50px;
+  }
+  
+  .footer-content {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+
+  .footer-navigation {
+  position: relative;
+  bottom: 6px;
+  right: 50px;
+  }
+  
+  .footer-navigation .txt-ul {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 40px;
+  }
+  
+  .txt-li {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+  }
+  
+  .connect-with-us {
+    position: relative;
+    right: 90px;
+    margin-left: 60px;
+  }
+  
+  .connect-with-us .footer-icon {
+    margin-right: 15px;
+  }
+  
+  .footer-content .copyright {
+  position: relative;
+  right: 120px;
+  margin-left: 40px;
+  }
+}
+
+/* Responsive for Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1321px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1321px;
+  }
+  
+  .footer-content {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .footer-navigation {
+  position: relative;
+  bottom: 6px;
+  right: 70px;
+  }
+  
+  .footer-navigation .txt-ul {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+  }
+  
+  .txt-li {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+  }
+  
+  .connect-with-us {
+    position: relative;
+    right: 130px;
+  }
+  
+  .connect-with-us .footer-icon {
+    margin-right: 15px;
+  }
+  
+  .footer-content .copyright {
+  position: relative;
+  right: 170px;
+  }
+}

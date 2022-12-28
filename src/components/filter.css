@@ -1,0 +1,360 @@
+/* .filter-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.filter-container {
+  border: 1px solid rgb(214, 204, 204);
+  width: 1047px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  position: relative;
+  left: 240px;
+  bottom: 40px;
+}
+
+.filter-container .input {
+  padding-bottom: 12px;
+}
+
+.filter-content {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.filter-content label {
+  font-size: 12px;
+  font-weight: 300;
+  color: #3c3c3c;
+  padding-bottom: 5px;
+}
+
+.filter-content input {
+  width: 208px;
+  height: 36px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #000;
+  border: 1px solid rgb(195, 181, 181);
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 10px;
+}
+
+.filter-content ::-webkit-input-placeholder {
+  /* Edge */
+  color: #000;
+}
+
+.dropdown {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  width: 208px;
+  height: 36px;
+  border: 1px solid rgb(195, 181, 181);
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 10px;
+}
+
+/* Tried to change the text colour of dropdown disabled option to grey, but nothing works  */
+
+/* .filter-content span {
+  color: red;
+}
+
+ .dropdown-placeholder {
+  color: red;
+}
+
+
+:disabled {
+  color: red;
+} */
+
+.availability {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.button-cariMobil {
+  padding-left: 12px;
+  padding-top: 22px;
+}
+
+.button-cariMobil button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #5cb85f;
+  width: 92px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  border: none;
+  border-radius: 2px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width:240px) and (max-width: 359px) {
+  
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  /* .filter-outer-container{
+   
+  } */
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    position: relative;
+    left: 0;
+    padding-right: 20px;
+  }
+
+  .filter-outer-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .button-cariMobil {
+    padding-left: 0;
+    padding-right: 25px;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* .filter-outer-container{
+   
+  } */
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 350px; */
+    width: 550px;
+    position: relative;
+    left: 0;
+    padding-right: 20px;
+  }
+
+  .filter-outer-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .filter-content input {
+    width: 350px;
+    font-size: 16px;
+  }
+
+  .dropdown {
+    width: 350px;
+    font-size: 16px;
+  }
+
+  .filter-content label {
+    font-size: 16px;
+  }
+
+  .button-cariMobil {
+    padding: 20px;
+    position: relative;
+    right: 15px;
+  }
+
+  .button-cariMobil button {
+    font-size: 16px;
+    width: 120px;
+    border-radius: 5px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .filter-container {
+    border: 1px solid rgb(214, 204, 204);
+    width: 820px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    position: relative;
+    left: 0px;
+    bottom: 40px;
+  }
+  
+  .filter-container .input {
+    padding-bottom: 12px;
+  }
+  
+  .filter-content {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+  }
+  
+  .filter-content label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3c3c3c;
+    padding-bottom: 5px;
+  }
+  
+  .filter-content input {
+    width: 150px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+  }
+  
+  .filter-content ::-webkit-input-placeholder {
+    /* Edge */
+    color: #000;
+  }
+  
+  .dropdown {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    width: 150px;
+    height: 36px;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+  }
+  
+  
+  .availability {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .button-cariMobil {
+    padding-left: 12px;
+    padding-top: 22px;
+  }
+  
+  .button-cariMobil button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5cb85f;
+    width: 92px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    border: none;
+    border-radius: 2px;
+  }
+}
+
+/* Responsive for Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1321px) {
+  .filter-container {
+    border: 1px solid rgb(214, 204, 204);
+    width: 1047px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    position: relative;
+    left: 0px;
+    bottom: 40px;
+  }
+  
+  .filter-container .input {
+    padding-bottom: 12px;
+  }
+  
+  .filter-content {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+  }
+  
+  .filter-content label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3c3c3c;
+    padding-bottom: 5px;
+  }
+  
+  .filter-content input {
+    width: 208px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+  }
+  
+  .filter-content ::-webkit-input-placeholder {
+    /* Edge */
+    color: #000;
+  }
+  
+  .dropdown {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    width: 208px;
+    height: 36px;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+  }
+  
+  .availability {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .button-cariMobil {
+    padding-left: 12px;
+    padding-top: 22px;
+  }
+  
+  .button-cariMobil button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5cb85f;
+    width: 92px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    border: none;
+    border-radius: 2px;
+  }
+  
+}
+

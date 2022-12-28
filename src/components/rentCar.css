@@ -1,0 +1,236 @@
+.sewaMobil-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sewaMobil-content-container {
+  background-color: #0D28A6;
+  ;
+  border-radius: 13px;
+  width: 1200px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.sewaMobil-content {
+  color: #FFFFFF;
+}
+
+.sewaMobil-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.sewaMobil-content p {
+  font-size: 14px; 
+  font-weight: 700;
+  width: 468px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.sewaMobil-content button {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #5CB85F;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 2px;
+  width: 140px;
+  height: 36px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width:240px) and (max-width: 359px) {
+  .sewaMobil-container {
+    width: 359px;
+  }
+
+  .sewaMobil-content-container {
+    width: 345px;
+    padding-bottom: 320px;
+  }
+
+  .sewaMobil-content {
+    text-align: center;
+  }
+
+  .sewaMobil-content h1 {
+    font-size: 24px;
+    width: 250px;
+    /* border: 1px solid; */
+  }
+
+  .sewaMobil-content p {
+    width: 290px;
+  }
+
+  .sewaMobil-content button {
+    font-size: 14px !important;
+    width: 160px !important;
+  }
+}
+
+/* Responsive for Medium Phone*/
+@media screen and (max-width : 480px) {
+  .sewaMobil-content-container {
+    width: 345px;
+    padding-bottom: 320px;
+  }
+
+  .sewaMobil-content {
+    text-align: center;
+  }
+
+  .sewaMobil-content h1 {
+    font-size: 24px;
+    width: 250px;
+    /* border: 1px solid; */
+  }
+
+  .sewaMobil-content p {
+    width: 290px;
+  }
+
+  .sewaMobil-content button {
+    font-size: 14px !important;
+    width: 160px !important;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width : 768px) {
+  .sewaMobil-container {
+    width: 768px;
+  }
+
+  .sewaMobil-content-container {
+    width: 490px;
+    padding-bottom: 420px;
+    display: flex;
+  }
+
+  .sewaMobil-content {
+    text-align: center;
+  }
+
+  .sewaMobil-content h1 {
+    font-size: 40px;
+  }
+
+  .sewaMobil-content p {
+    width: 350px;
+    font-size: 20px;
+  }
+}
+
+.sewaMobil-content button {
+  font-size: 18px;
+  width: 200px;
+  border-radius: 8px;
+  height: 45px;
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .sewaMobil-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 991px;
+  }
+  
+  .sewaMobil-content-container {
+    background-color: #0D28A6;
+    ;
+    border-radius: 13px;
+    width: 800px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+  
+  .sewaMobil-content {
+    color: #FFFFFF;
+  }
+  
+  .sewaMobil-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  .sewaMobil-content p {
+    font-size: 14px; 
+    font-weight: 700;
+    width: 468px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  
+  .sewaMobil-content button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #5CB85F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    width: 140px;
+    height: 36px;
+  }
+}
+
+/* Responsive for Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1321px) {
+  .sewaMobil-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 1321px;
+  }
+  
+  .sewaMobil-content-container {
+    background-color: #0D28A6;
+    ;
+    border-radius: 13px;
+    width: 1200px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+  
+  .sewaMobil-content {
+    color: #FFFFFF;
+  }
+  
+  .sewaMobil-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  .sewaMobil-content p {
+    font-size: 14px; 
+    font-weight: 700;
+    width: 468px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  
+  .sewaMobil-content button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #5CB85F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    width: 140px;
+    height: 36px;
+  }
+}

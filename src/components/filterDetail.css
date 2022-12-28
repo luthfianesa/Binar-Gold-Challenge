@@ -1,0 +1,316 @@
+/* .filter-outer-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 40px;
+} */
+
+.filterDetail-container {
+  border: 1px solid rgb(214, 204, 204);
+  width: 1047px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  position: relative;
+  left: 240px;
+  bottom: 40px;
+}
+
+.filter-container .input {
+  padding-bottom: 12px;
+}
+
+.filter-content-detail {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.filter-content-detail label {
+  font-size: 12px;
+  font-weight: 300;
+  color: #3c3c3c;
+  padding-bottom: 5px;
+}
+
+.filter-content-detail input {
+  width: 208px;
+  height: 36px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #000;
+  border: 1px solid rgb(195, 181, 181);
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 10px;
+  background-color: #d0d0d0;
+}
+
+.filter-content-detail ::-webkit-input-placeholder {
+  /* Edge */
+  color: #000;
+}
+
+.dropdown-detail {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  width: 208px;
+  height: 36px;
+  border: 1px solid rgb(195, 181, 181);
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 10px;
+  background-color: #d0d0d0;
+}
+
+.availability {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.button-gantiMobil {
+  padding-left: 12px;
+  padding-top: 22px;
+}
+
+.button-gantiMobil button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #5cb85f;
+  width: 92px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 2px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width:240px) and (max-width: 359px) {
+  
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .filterDetail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    position: relative;
+    left: 0;
+  }
+
+  .button-gantiMobil {
+    padding-left: 0;
+  }
+
+  .button-gantiMobil button {
+    padding: 10px;
+    width: 100px;
+    position: relative;
+    right: 5px;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .filterDetail-container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    position: relative;
+    left: 0;
+  }
+
+  .filter-content-detail input {
+    width: 350px;
+    font-size: 16px;
+  }
+
+  .filter-content-detail label {
+    font-size: 16px;
+  }
+
+  .button-gantiMobil {
+    padding: 20px;
+    position: relative;
+    right: 10px;
+  }
+
+  .button-gantiMobil button {
+    font-size: 16px;
+    width: 120px;
+    border-radius: 5px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .filterDetail-container {
+    border: 1px solid rgb(214, 204, 204);
+    width: 820px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    position: relative;
+    left: 0px;
+    bottom: 40px;
+  }
+
+  .filter-container .input {
+    padding-bottom: 12px;
+  }
+
+  .filter-content-detail {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+  }
+
+  .filter-content-detail label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3c3c3c;
+    padding-bottom: 5px;
+  }
+
+  .filter-content-detail input {
+    width: 150px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+    background-color: #d0d0d0;
+  }
+
+  .filter-content-detail ::-webkit-input-placeholder {
+    /* Edge */
+    color: #000;
+  }
+
+  .availability {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .button-gantiMobil {
+    padding-left: 12px;
+    padding-top: 22px;
+  }
+
+  .button-gantiMobil button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5cb85f;
+    width: 92px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 2px;
+  }
+}
+
+/* Responsive for Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1321px) {
+  .filterDetail-container {
+    border: 1px solid rgb(214, 204, 204);
+    width: 1047px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    position: relative;
+    left: 0px;
+    bottom: 40px;
+  }
+  
+  .filter-container .input {
+    padding-bottom: 12px;
+  }
+  
+  .filter-content-detail {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+  }
+  
+  .filter-content-detail label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3c3c3c;
+    padding-bottom: 5px;
+  }
+  
+  .filter-content-detail input {
+    width: 208px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+    background-color: #d0d0d0;
+  }
+  
+  .filter-content-detail ::-webkit-input-placeholder {
+    /* Edge */
+    color: #000;
+  }
+  
+  .dropdown-detail {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    width: 208px;
+    height: 36px;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+    background-color: #d0d0d0;
+  }
+  
+  .availability {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .button-gantiMobil {
+    padding-left: 12px;
+    padding-top: 22px;
+  }
+  
+  .button-gantiMobil button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5cb85f;
+    width: 92px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 2px;
+  }
+}

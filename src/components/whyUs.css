@@ -1,0 +1,386 @@
+.whyUs-container {
+  padding-top: 155px;
+}
+
+.why-us-heading {
+  padding-top: 80px;
+  margin-left: 169px;
+  /* border: 1px solid; */
+}
+
+.why-us-heading h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.why-us-heading p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.why-us-ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card-container {
+  border: 1px solid #e6dcdc;
+  border-radius: 5px;
+  width: 270px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-container .icon-why-us {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.card-container h4 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.card-container p {
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-right: 17px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width:240px) and (max-width: 359.5px) {
+  .whyUs-container {
+    padding-top: 0;
+    width: 359px;
+  }
+
+  .why-us-heading {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .why-us-heading h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .why-us-heading p {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 50px;
+  }
+
+  .why-us-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-left: 0;
+  }
+
+  .card-container {
+    border: 1px solid #e6dcdc;
+    border-radius: 5px;
+    width: 270px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-container .icon-why-us {
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+
+  .card-container h4 {
+    font-size: 16px;
+    font-weight: 790;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .card-container p {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 17px;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .whyUs-container {
+    padding-top: 0;
+  }
+
+  .why-us-heading {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .why-us-heading h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .why-us-heading p {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+
+  .why-us-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-left: 0;
+  }
+
+  .card-container {
+    border: 1px solid #e6dcdc;
+    border-radius: 5px;
+    width: 270px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-container .icon-why-us {
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+
+  .card-container h4 {
+    font-size: 16px;
+    font-weight: 790;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .card-container p {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 17px;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .whyUs-container {
+    padding-top: 0;
+    width: 768px;
+  }
+
+  .why-us-heading {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .why-us-heading h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .why-us-heading p {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 50px;
+  }
+
+  .why-us-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-left: 0;
+  }
+
+  .card-container {
+    border: 1px solid #e6dcdc;
+    border-radius: 5px;
+    width: 380px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+  }
+
+  .card-container .icon-why-us {
+    padding-top: 0;
+    padding-left: 20px;
+    width: 65px;
+  }
+
+  .card-container h4 {
+    font-size: 20px;
+    font-weight: 790;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .card-container p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 17px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .whyUs-container {
+    width: 991px;
+    padding-top: 105px;
+  }
+
+  .why-us-heading {
+    padding-top: 80px;
+    margin-left: 0px !important;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .why-us-heading h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .why-us-heading p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .why-us-ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* border: 1px solid rgb(17, 227, 115); */
+    padding-left: 0;
+  }
+
+  .card-container {
+    border: 1px solid #e6dcdc;
+    border-radius: 5px;
+    width: 270px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+
+  .card-container .icon-why-us {
+    padding-top: 15px;
+    padding-left: 20px;
+    /* border: 1px solid; */
+  }
+
+  .card-container h4 {
+    font-size: 18px;
+    font-weight: 790 !important;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    /* border: 1px solid; */
+  }
+
+  .card-container p {
+    font-size: 16px;
+    font-weight: 0 !important;
+    padding-left: 20px;
+    padding-right: 17px;
+    /* border: 1px solid; */
+    height: 140px;
+  }
+}
+
+/* Responsive for Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1321px) {
+  .whyUs-container {
+    width: 1321px;
+    padding-top: 105px;
+  }
+
+  .why-us-heading {
+    padding-top: 80px;
+    margin-left: 0px !important;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .why-us-heading h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .why-us-heading p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .why-us-ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* border: 1px solid rgb(17, 227, 115); */
+    padding-left: 0;
+  }
+
+  .card-container {
+    border: 1px solid #e6dcdc;
+    border-radius: 5px;
+    width: 270px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+
+  .card-container .icon-why-us {
+    padding-top: 15px;
+    padding-left: 20px;
+    /* border: 1px solid; */
+  }
+
+  .card-container h4 {
+    font-size: 18px;
+    font-weight: 790 !important;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    /* border: 1px solid; */
+  }
+
+  .card-container p {
+    font-size: 16px;
+    font-weight: 0 !important;
+    padding-left: 20px;
+    padding-right: 17px;
+    /* border: 1px solid; */
+    height: 140px;
+  }
+}

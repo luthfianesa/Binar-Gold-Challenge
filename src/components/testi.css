@@ -1,0 +1,449 @@
+.testi-container {
+  padding-top: 100px;
+}
+
+.txt-testi h1 {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.txt-testi p {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.testi h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.testi p {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-outer-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.carousel-inner-container {
+  background-color: #f1f3ff;
+  width: 640px;
+  padding-bottom: 50px;
+  border-radius: 8px;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-carousel {
+  position: relative;
+  top: 95px;
+  left: 40px;
+}
+
+.txt-carousel {
+  width: 430px;
+  position: relative;
+  left: 180px;
+  bottom: 30px;
+}
+
+.txt-carousel img {
+  position: relative;
+  top: 12px;
+}
+
+.txt-carousel p {
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.txt-carousel span {
+  position: relative;
+  bottom: 10px;
+}
+
+.carousel-indicators {
+  position: relative;
+  top: 0;
+}
+
+.carousel-control-prev-icon {
+  position: relative;
+  right: 80px;
+}
+
+.carousel-control-next-icon {
+  position: relative;
+  left: 80px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .testi-container {
+    padding-top: 100px;
+    width: 359px;
+  }
+  .txt-testi {
+    padding-right: 0;
+  }
+
+  .carousel-inner-container {
+    width: 345px;
+  }
+
+  .img-carousel {
+    position: relative;
+    top: 0;
+    left: 133px;
+  }
+
+  .carousel-item {
+    padding-top: 50px;
+  }
+
+  .txt-carousel {
+    width: 333px;
+    padding-top: 40px;
+    padding-right: 25px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    left: 0;
+    bottom: 120px;
+  }
+
+  .carousel-control-prev-icon {
+    position: relative;
+    right: 0;
+    bottom: 120px;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .txt-testi {
+    padding-right: 0;
+  }
+
+  .carousel-inner-container {
+    width: 345px;
+  }
+
+  .img-carousel {
+    position: relative;
+    top: 0;
+    left: 133px;
+  }
+
+  .carousel-item {
+    padding-top: 50px;
+  }
+
+  .txt-carousel {
+    width: 333px;
+    padding-top: 40px;
+    padding-right: 25px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    left: 0;
+    bottom: 120px;
+  }
+
+  .carousel-control-prev-icon {
+    position: relative;
+    right: 0;
+    bottom: 120px;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .testi-container {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width: 768px;
+  }
+
+  .txt-testi {
+    padding-right: 0;
+  }
+
+  .txt-testi h1 {
+    font-size: 40px;
+  }
+
+  .txt-testi p {
+    font-size: 20px;
+  }
+
+  .carousel-inner-container {
+    width: 490px;
+  }
+
+  .carousel-indicators button {
+    width: 55px !important;
+  }
+
+  .img-carousel {
+    position: relative;
+    top: 75px;
+    left: 180px;
+  }
+
+  .img-carousel img {
+    width: 130px;
+  }
+
+  .carousel-item {
+    /* border: 1px solid; */
+    height: 475px;
+  }
+
+  .txt-carousel {
+    width: 433px;
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 31px;
+    /* border: 1px solid; */
+  }
+
+  .txt-carousel img {
+    width: 140px;
+    padding-bottom: 10px;
+  }
+
+  .txt-carousel p {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .txt-carousel span {
+    font-size: 20px;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    left: 0;
+    bottom: 160px;
+    width: 70px !important;
+    height: 80px !important ;
+  }
+
+  .carousel-control-prev-icon {
+    position: relative;
+    right: 0;
+    bottom: 160px;
+    width: 70px !important;
+    height: 80px !important ;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .testi-container {
+    padding-top: 100px;
+    width: 991px;
+  }
+
+  .txt-testi h1 {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+
+  .txt-testi p {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+  .testi h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .testi p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-outer-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .carousel-inner-container {
+    background-color: #f1f3ff;
+    width: 640px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-carousel {
+    position: relative;
+    top: 95px;
+    left: 40px;
+  }
+
+  .txt-carousel {
+    width: 430px;
+    position: relative;
+    left: 180px;
+    bottom: 30px;
+  }
+
+  .txt-carousel img {
+    position: relative;
+    top: 12px;
+  }
+
+  .txt-carousel p {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+
+  .txt-carousel span {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .carousel-indicators {
+    position: relative;
+    top: 0;
+  }
+
+  .carousel-control-prev-icon {
+    position: relative;
+    right: 80px;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    left: 80px;
+  }
+}
+
+/* Responsive for Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1321px) {
+  .testi-container {
+    padding-top: 100px;
+    width: 1321px;
+  }
+
+  .txt-testi h1 {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+
+  .txt-testi p {
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+  .testi h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .testi p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-outer-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .carousel-inner-container {
+    background-color: #f1f3ff;
+    width: 640px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-carousel {
+    position: relative;
+    top: 95px;
+    left: 40px;
+  }
+
+  .txt-carousel {
+    width: 430px;
+    position: relative;
+    left: 180px;
+    bottom: 30px;
+  }
+
+  .txt-carousel img {
+    position: relative;
+    top: 12px;
+  }
+
+  .txt-carousel p {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+
+  .txt-carousel span {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .carousel-indicators {
+    position: relative;
+    top: 0;
+  }
+
+  .carousel-control-prev-icon {
+    position: relative;
+    right: 80px;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    left: 80px;
+  }
+}
