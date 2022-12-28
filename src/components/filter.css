@@ -125,6 +125,10 @@
     align-items: center;
   }
 
+  .filter-content input {
+    color: #000 !important;
+  }
+
   .filter-content ::-webkit-input-placeholder {
     color: #000 !important;
   }
