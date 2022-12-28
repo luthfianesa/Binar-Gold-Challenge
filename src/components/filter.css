@@ -110,9 +110,6 @@
 
 /* Responsive for Medium Phone */
 @media screen and (max-width: 480px) {
-  /* .filter-outer-container{
-   
-  } */
   .filter-container {
     display: flex;
     flex-direction: column;
@@ -126,6 +123,10 @@
   .filter-outer-container {
     display: flex;
     align-items: center;
+  }
+
+  .dropdown {
+    background-color: #fff;
   }
 
   .button-cariMobil {
