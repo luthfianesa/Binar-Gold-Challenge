@@ -23,6 +23,11 @@
 }
 
 /* SearchCar Page */
+/* Screen Overlay */
+.filter-container-onSearchPage :hover {
+  box-shadow: 0 0 0 100000px rgb(0 0 0 / 65%);
+  transition: box-shadow 0.5s;
+}
 
 /* Responsive for Small Phone */
 @media screen and (min-width:240px) and (max-width: 359px) {

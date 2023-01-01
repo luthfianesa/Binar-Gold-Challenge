@@ -125,6 +125,10 @@
     align-items: center;
   }
 
+  .filter-container :hover {
+    box-shadow: none;
+  }
+
   .filter-content input {
     color: #000 !important;
     font-weight: 400;
