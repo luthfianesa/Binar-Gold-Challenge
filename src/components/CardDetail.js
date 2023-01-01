@@ -34,7 +34,7 @@ const CardDetail = () => {
               <img src={UsersIcon}></img>
               </div>
               <div className="category-heading">
-                <h1>6 - 8 orang</h1> 
+                <h1>{car.category}</h1> 
               </div>
             </div>
             <div className="card-billing-container">
