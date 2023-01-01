@@ -21,6 +21,12 @@
   bottom: 40px;
 }
 
+.filterDetail-icon {
+  position: relative;
+  top: 50px;
+  left: 180px;
+}
+
 .filter-container .input {
   padding-bottom: 12px;
 }
