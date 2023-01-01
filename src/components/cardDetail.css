@@ -17,8 +17,7 @@
 }
 
 .card-img-container img {
-  padding-top: 20px;
-  width: 250px;
+  width: 100%;
 }
 
 .card-heading-container {
