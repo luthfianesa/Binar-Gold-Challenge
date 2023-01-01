@@ -2,6 +2,7 @@ import "../components/cardDetail.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import UsersIcon from "../assets/fi_users.png"
 
 const CardDetail = () => {
   // Ambil id car
@@ -27,6 +28,14 @@ const CardDetail = () => {
             </div>
             <div className="card-heading-container">
               <h1>{car.name}</h1>
+            </div>
+            <div className="card-category-container">
+              <div className="category-img"> 
+              <img src={UsersIcon}></img>
+              </div>
+              <div className="category-heading">
+                <h1>6 - 8 orang</h1> 
+              </div>
             </div>
             <div className="card-billing-container">
               <h1>Total</h1>

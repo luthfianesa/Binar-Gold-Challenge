@@ -24,7 +24,7 @@
 
 .card-heading-container {
   padding-top: 20px;
-  padding-bottom: 70px;
+  padding-bottom: 0;
 }
 
 .card-heading-container h1 {
@@ -33,11 +33,30 @@
   padding-left: 20px;
 }
 
+.card-category-container {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.card-category-container img {
+  padding-left: 20px;
+  width: 35px;
+  /* border: 1px solid; */
+}
+
+.card-category-container h1 {
+  font-size: 14px;
+  /* border: 1px solid; */
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
 .card-billing-container {
   display: flex;
   justify-content: space-between;
   padding-right: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .card-billing-container h1 {
