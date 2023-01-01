@@ -23,6 +23,11 @@
   padding-bottom: 12px;
 }
 
+.filter-container :hover {
+  box-shadow: none;
+}
+
+
 .filter-content {
   display: flex;
   flex-direction: column;
@@ -125,9 +130,6 @@
     align-items: center;
   }
 
-  .filter-container :hover {
-    box-shadow: none;
-  }
 
   .filter-content input {
     color: #000 !important;
