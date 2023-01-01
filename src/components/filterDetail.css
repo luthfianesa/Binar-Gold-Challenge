@@ -21,13 +21,6 @@
   bottom: 40px;
 }
 
-.filterDetail-icon {
-  position: relative;
-  top: 50px;
-  left: 180px;
-}
-
-
 .filter-container .input {
   padding-bottom: 12px;
 }
@@ -83,7 +76,8 @@
 
 .button-gantiMobil {
   padding-left: 12px;
-  padding-top: 22px;
+  position: relative;
+  top: 24px;
 }
 
 .button-gantiMobil button {
