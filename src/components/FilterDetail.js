@@ -12,15 +12,18 @@ const FilterDetail = (props) => {
   const { id } = useParams();
   const [car, setCar] = useState([]);
 
+  
+
   useEffect(() => {
     axios
       .get(`https://bootcamp-rent-cars.herokuapp.com/customer/car/${id}`)
       .then((res) => {
-        console.log(res)
+        // console.log(res)
         setCar(res.data);
       })
       .catch((err) => console.log(err.message));
   }, []);
+
 
   return (
     <div className="filterDetail-container">
@@ -36,14 +39,14 @@ const FilterDetail = (props) => {
       </div>
       <div className="filter-content-detail input input-2">
       <div className="chosenData chosenCarCategory">
-          <h1>{car.category}</h1>
+          {/* <h1>{car.category}</h1> */}
           {/* <h1>Medium</h1> */}
         </div>
         <div className="filterDetail-icon icon-2">
           <img src={CalendarIcon}></img>
         </div>
         <label>Kategori</label>
-        <input onChange={props.fName} placeholder="" disabled></input>
+        <input onChange={props.fCategory} placeholder="" disabled></input>
       </div>
       {/* Input Harga */}
       <div className="filter-content-detail input input-3">
@@ -54,18 +57,18 @@ const FilterDetail = (props) => {
           <img src={ClockIcon}></img>
         </div>
         <label>Harga Sewa</label>
-        <input onChange={props.fName} placeholder="" disabled></input>
+        <input onChange={props.fPrice} placeholder="" disabled></input>
       </div>
       <div className="filter-content-detail input input-4">
       <div className="chosenData chosenCarStatus">
-          <h1>{car.status}</h1>
-          {/* <h1>Tersedia</h1> */}
+        {/* <h1>{car.status}</h1> */}
+          <h1>Tersedia</h1>
         </div>
       <div className="filterDetail-icon icon-4">
           <img src={UsersIcon}></img>
         </div>
         <label>Status</label>
-        <input onChange={props.fName} placeholder="" disabled></input>
+        <input onChange={props.fStatus} placeholder="" disabled></input>
       </div>
       <div className="button-gantiMobil">
         <Link to={"/searchcar"}>

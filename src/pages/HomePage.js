@@ -9,7 +9,7 @@ import Testi from "../components/Testi";
 import RentCar from "../components/RentCar";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
-import NavbarTest from "../components/NavbarTest";
+// import NavbarTest from "../components/NavbarTest";
 
 const HomePage = () => {
   const [data, setData] = useState([

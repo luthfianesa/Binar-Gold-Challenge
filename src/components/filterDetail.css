@@ -8,7 +8,7 @@
 .filterDetail-container {
   border: 1px solid rgb(214, 204, 204);
   width: 1047px;
-  padding-top: 0px;
+  padding-top: 20px;
   padding-bottom: 0px;
   display: flex;
   justify-content: center;
@@ -20,11 +20,17 @@
   left: 240px;
   bottom: 40px;
 }
+
+.chosenData {
+  /* border: 1px solid; */
+  position: absolute;
+  top: 47px;
+  padding-top: 10px;
+  padding-left: 15px;
+  width: 165px;
+}
 .chosenData h1 {
   font-size: 14px;
-  position: relative;
-  top: 82px;
-  left: 25px;
   color: #fff;
   /* border: 1px solid; */
 }
@@ -92,9 +98,7 @@
 
 .button-gantiMobil {
   padding-left: 12px;
-  /* padding-top: 45px; */
-  position: relative;
-  top: 11px;
+  padding-bottom: 4px;
   /* border: 1px solid; */
 }
 
@@ -130,24 +134,30 @@
 
   .input-2 {
     position: relative;
-    bottom: 65px;
+    bottom: 45px;
   }
 
   .input-3 {
     position: relative;
-    bottom: 105px;
+    bottom: 65px;
   }
 
   .input-4 {
     position: relative;
-    bottom: 145px;
+    bottom: 85px;
+  }
+  
+  .chosenData {
+    /* border: 1px solid; */
+    position: absolute;
+    top: 47px;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 165px;
   }
 
   .chosenData h1 {
     font-size: 14px;
-    position: relative;
-    top: 82px;
-    left: 25px;
     color: #fff;
     /* border: 1px solid; */
   }
@@ -168,7 +178,7 @@
     width: 100px;
     position: relative;
     right: 5px;
-    bottom: 120px;
+    bottom: 65px;
   }
 }
 
@@ -187,24 +197,30 @@
 
   .input-2 {
     position: relative;
-    bottom: 65px;
+    bottom: 45px;
   }
 
   .input-3 {
     position: relative;
-    bottom: 105px;
+    bottom: 65px;
   }
 
   .input-4 {
     position: relative;
-    bottom: 145px;
+    bottom: 85px;
+  }
+
+  .chosenData {
+    /* border: 1px solid; */
+    position: absolute;
+    top: 47px;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 165px;
   }
 
   .chosenData h1 {
     font-size: 14px;
-    position: relative;
-    top: 82px;
-    left: 25px;
     color: #fff;
     /* border: 1px solid; */
   }
@@ -225,7 +241,7 @@
     width: 100px;
     position: relative;
     right: 5px;
-    bottom: 120px;
+    bottom: 65px;
   }
 }
 
@@ -234,7 +250,7 @@
   .filterDetail-container {
     border: 1px solid rgb(214, 204, 204);
     width: 890px;
-    padding-top: 0;
+    padding-top: 20px;
     padding-bottom: 0px;
     padding-left: 45px;
     display: flex;
@@ -265,9 +281,6 @@
 
   .chosenData h1 {
     font-size: 12px;
-    position: relative;
-    top: 80px;
-    left: 15px;
     color: #fff;
     /* border: 1px solid; */
   }

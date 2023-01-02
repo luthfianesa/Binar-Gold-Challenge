@@ -46,7 +46,7 @@ const SearchCar = () => {
     // console.log(e.target.value);
   };
 
-  const handlePrice = (e) => {
+  const handleFilterPrice = (e) => {
     if (e.target.value === "cheap"){
         setFMinPrice(0)
         setFMaxPrice(400000)
@@ -82,7 +82,7 @@ const SearchCar = () => {
       {/* Kirim Data */}
       <div className="container-for-filter-and-cardFilter">
         <div className="filter-container-onSearchPage">
-          <Filter handleFilter={handleFilter} fName={handleFilterName} fCategory={handleFilterCategory}fPrice={handlePrice} fStatus={handleFilterStatus} isInputDisable={false} />
+          <Filter handleFilter={handleFilter} fName={handleFilterName} fCategory={handleFilterCategory}fPrice={handleFilterPrice} fStatus={handleFilterStatus} isInputDisable={false} />
         </div>
         <div className="cardFilter-container-onSearchPage">
           <CardFilter carData={carData} />
