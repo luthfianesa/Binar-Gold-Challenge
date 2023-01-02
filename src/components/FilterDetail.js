@@ -36,8 +36,8 @@ const FilterDetail = (props) => {
       </div>
       <div className="filter-content-detail input input-2">
       <div className="chosenData chosenCarCategory">
-          {/* <h1>{car.category}</h1> */}
-          <h1>Medium</h1>
+          <h1>{car.category}</h1>
+          {/* <h1>Medium</h1> */}
         </div>
         <div className="filterDetail-icon icon-2">
           <img src={CalendarIcon}></img>
@@ -58,8 +58,8 @@ const FilterDetail = (props) => {
       </div>
       <div className="filter-content-detail input input-4">
       <div className="chosenData chosenCarStatus">
-          {/* <h1>{car.status}</h1> */}
-          <h1>Tersedia</h1>
+          <h1>{car.status}</h1>
+          {/* <h1>Tersedia</h1> */}
         </div>
       <div className="filterDetail-icon icon-4">
           <img src={UsersIcon}></img>

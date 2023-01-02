@@ -43,16 +43,33 @@ const SearchCar = () => {
 
   const handleFilterCategory = (e) => {
     setFCategory(e.target.value);
-    console.log(e.target.value);
+    // console.log(e.target.value);
   };
 
-  const handleFilterMinPrice = (e) => {
-    setFMinPrice(e.target.value);
-  };
+  const handlePrice = (e) => {
+    if (e.target.value === "cheap"){
+        setFMinPrice(0)
+        setFMaxPrice(400000)
+    } else if (e.target.value === "middle") {
+        setFMinPrice(400000)
+        setFMaxPrice(600000)
+    } else if (e.target.value === "expensive") {
+        setFMinPrice(600000)
+        setFMaxPrice(100000000)
+    } else if (e.target.value === "default") {
+        setFMinPrice("")
+        setFMaxPrice("")
+    } else {
+    }
+}
 
-  const handleFilterMaxPrice = (e) => {
-    setFMaxPrice(e.target.value);
-  };
+  // const handleFilterMinPrice = (e) => {
+  //   setFMinPrice(e.target.value);
+  // };
+
+  // const handleFilterMaxPrice = (e) => {
+  //   setFMaxPrice(e.target.value);
+  // };
 
   const handleFilterStatus = (e) => {
     setFStatus(e.target.value);
@@ -65,7 +82,7 @@ const SearchCar = () => {
       {/* Kirim Data */}
       <div className="container-for-filter-and-cardFilter">
         <div className="filter-container-onSearchPage">
-          <Filter handleFilter={handleFilter} fName={handleFilterName} fCategory={handleFilterCategory} fMinPrice={handleFilterMinPrice} fMaxPrice={handleFilterMaxPrice} fStatus={handleFilterStatus} isInputDisable={false} />
+          <Filter handleFilter={handleFilter} fName={handleFilterName} fCategory={handleFilterCategory}fPrice={handlePrice} fStatus={handleFilterStatus} isInputDisable={false} />
         </div>
         <div className="cardFilter-container-onSearchPage">
           <CardFilter carData={carData} />
