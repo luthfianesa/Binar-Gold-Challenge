@@ -121,9 +121,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 1080px;
-    margin-left: 0px;
-    position: relative;
-    left: 20px;
+    margin-left: 38px;
   }
   
   .carData {
