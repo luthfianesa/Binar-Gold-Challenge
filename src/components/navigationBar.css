@@ -5,7 +5,9 @@
 .nav-brand {
   position: relative;
   left: 100px;
+  /* border: 1px solid; */
 }
+
 
 .navigationList {
   gap: 12px;

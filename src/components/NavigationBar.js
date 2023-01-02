@@ -11,15 +11,20 @@ const NavigationBar = () => {
       {["lg"].map((expand) => (
         <Navbar collapseOnSelect key={expand} expand={expand} className="mb-3 navbar-container" fixed="top">
           <Container fluid>
+            {/* Using Navbar.Brand only able to click in the top and bottom of the edge to direct to homepage */}
             <Navbar.Brand href="/" className="nav-brand">
-              <img src={Logo}></img>
+              <div className="nav-img-container">
+                <img src={Logo} alt="navigation-logo"></img>
+              </div>
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="end">
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  <Nav.Link href="/"><span>BCR</span></Nav.Link>
+                  <Nav.Link href="/">
+                    <span>BCR</span>
+                  </Nav.Link>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -39,21 +44,3 @@ const NavigationBar = () => {
 };
 
 export default NavigationBar;
-
-{/* <div className="nav-mobile">
-  <div className="bcr">
-    <h1>BCR</h1>
-  </div>
-  <div>
-    <a href="#ourServices">Our Services</a>
-  </div>
-  <div>
-    <a href="#whyUs">Our Services</a>
-  </div>
-  <div>
-    <a href="#Testimony">Our Services</a>
-  </div>
-  <div>
-    <a href="#FAQ">Our Services</a>
-  </div>
-</div>; */}
