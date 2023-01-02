@@ -26,16 +26,15 @@ const Filter = (props) => {
           <option value="" disabled selected hidden>
             Masukan Harga Sewa Per Hari
           </option>
-          <option value="300k">Mulai dari Harga Terendah</option>
-          <option value="400k">Mulai dari Harga Tertinggi</option>
+          <option value="10000000">&#60; Rp 1.000.000 </option>
+          <option value="1000000">&#62; Rp 1.000.000</option>
         </select>
       </div>
-
       <div className="filter-content input availability">
         <label>Status</label>
         <select onClick={props.fStatus} name="status" id="status" className="dropdown">
           <option value="" disabled selected hidden>
-            Cek Ketersedian
+            Cek Ketersediaan
           </option>
           <option value="true">Disewa</option>
           <option value="false">Tersedia</option>
@@ -52,10 +51,12 @@ const Filter = (props) => {
 export default Filter;
 
 // Harga Sewa Per Hari
-{/* <div className="filter-content input">
+{
+  /* <div className="filter-content input">
   <label>Harga Sewa Per Hari</label>
   <input onChange={props.fMinPrice} placeholder="Masukan Harga Sewa Per Hari" type="number"></input>
-</div>; */}
+</div>; */
+}
 
 //   <div className="input-harga-container">
 //   <div className="filter-content input">
@@ -74,3 +75,20 @@ export default Filter;
 //     ></input>
 //   </div>
 // </div>
+
+// Other Price Filter Code
+{
+  /* <div>
+  <div className="filtercars-input-title">
+    <p className="filtercars-input-title-p">Harga</p>
+  </div>
+  <div className="filtercars-input-harga">
+    <div>
+      <input onChange={props.minPriceFilter} placeholder={props.isInputDisable ? null : "minimal harga"} className={props.isInputDisable ? "filtercars-input-name-disable" : "filtercars-input-name"} type="number" />
+    </div>
+    <div>
+      <input onChange={props.maxPriceFilter} placeholder={props.isInputDisable ? null : "maksimal harga"} className={props.isInputDisable ? "filtercars-input-name-disable" : "filtercars-input-name"} type="number" />
+    </div>
+  </div>
+</div>; */
+}
