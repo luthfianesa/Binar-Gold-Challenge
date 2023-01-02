@@ -43,7 +43,7 @@ const SearchCar = () => {
 
   const handleFilterCategory = (e) => {
     setFCategory(e.target.value);
-    // console.log(e.target.value);
+    console.log(e.target.value);
   };
 
   const handleFilterMinPrice = (e) => {

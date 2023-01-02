@@ -123,7 +123,6 @@
   }
 
   .why-us-heading {
-    padding-top: 120px;
     margin-left: 0;
     text-align: center;
   }
@@ -315,9 +314,9 @@
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .whyUs-container {
-    width: 1321px;
+    width: 1320px;
     padding-top: 105px;
   }
 

@@ -99,7 +99,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 60px;
   }
 
   .img-ourServices-container {
@@ -264,12 +264,12 @@
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .ourServices-container {
     display: flex;
     justify-content: space-evenly;
     padding-top: 120px;
-    width: 1321px;
+    width: 1320px;
   }
   
   .txt-ourServices-container {

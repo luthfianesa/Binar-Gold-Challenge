@@ -50,7 +50,7 @@ const Faq = () => {
         {/* 5 */}
         <Accordion.Item eventKey="4">
           <Accordion.Header className="header">
-            <span>Bagaimana jika terjadi kecelakaan saat peminjaman ?</span>
+            <span>Bagaimana jika terjadi kecelakaan ?</span>
           </Accordion.Header>
           <Accordion.Body className="accident">
             <ul>

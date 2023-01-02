@@ -267,13 +267,13 @@
 }
 
 /* Responsive for Laptop and Desktop */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .header-container {
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
     background-color: #f1f3ff;
-    width: 1321px;
+    width: 1320px;
   }
 
   .txt-header-container {

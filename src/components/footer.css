@@ -193,13 +193,13 @@ right: 170px;
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .footer-container {
     display: flex;
     justify-content: space-evenly;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 1321px;
+    width: 1320px;
   }
   
   .footer-content {

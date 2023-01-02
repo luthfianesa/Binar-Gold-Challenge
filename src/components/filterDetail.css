@@ -8,8 +8,8 @@
 .filterDetail-container {
   border: 1px solid rgb(214, 204, 204);
   width: 1047px;
-  padding-top: 5px;
-  padding-bottom: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,21 +20,31 @@
   left: 240px;
   bottom: 40px;
 }
-
+.chosenData h1 {
+  font-size: 14px;
+  position: relative;
+  top: 82px;
+  left: 25px;
+  color: #fff;
+  /* border: 1px solid; */
+}
 .filterDetail-icon {
   position: relative;
   top: 50px;
   left: 180px;
+  /* border: 1px solid; */
 }
 
-.filter-container .input {
+/* .filter-container .input {
   padding-bottom: 12px;
-}
+} */
 
 .filter-content-detail {
   display: flex;
   flex-direction: column;
   padding-right: 10px;
+  position: relative;
+  bottom: 25px;
 }
 
 .filter-content-detail label {
@@ -82,8 +92,10 @@
 
 .button-gantiMobil {
   padding-left: 12px;
+  /* padding-top: 45px; */
   position: relative;
-  top: 24px;
+  top: 11px;
+  /* border: 1px solid; */
 }
 
 .button-gantiMobil button {
@@ -99,19 +111,52 @@
 }
 
 /* Responsive for Small Phone */
-@media screen and (min-width:240px) and (max-width: 359px) {
-  
+@media screen and (min-width: 240px) and (max-width: 359px) {
 }
 
 /* Responsive for Medium Phone */
+
 @media screen and (max-width: 480px) {
   .filterDetail-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
+    height: 390px;
     position: relative;
     left: 0;
+    padding-top: 90px;
+  }
+
+  .input-2 {
+    position: relative;
+    bottom: 65px;
+  }
+
+  .input-3 {
+    position: relative;
+    bottom: 105px;
+  }
+
+  .input-4 {
+    position: relative;
+    bottom: 145px;
+  }
+
+  .chosenData h1 {
+    font-size: 14px;
+    position: relative;
+    top: 82px;
+    left: 25px;
+    color: #fff;
+    /* border: 1px solid; */
+  }
+  .filterDetail-icon {
+    position: relative;
+    top: 50px;
+    left: 180px;
+    /* border: 1px solid; */
+    width: 25px;
   }
 
   .button-gantiMobil {
@@ -123,6 +168,7 @@
     width: 100px;
     position: relative;
     right: 5px;
+    bottom: 120px;
   }
 }
 
@@ -131,30 +177,55 @@
   .filterDetail-container {
     display: flex;
     flex-direction: column;
-    width: 550px;
+    align-items: center;
+    width: 350px;
+    height: 390px;
     position: relative;
     left: 0;
+    padding-top: 90px;
   }
 
-  .filter-content-detail input {
-    width: 350px;
-    font-size: 16px;
+  .input-2 {
+    position: relative;
+    bottom: 65px;
   }
 
-  .filter-content-detail label {
-    font-size: 16px;
+  .input-3 {
+    position: relative;
+    bottom: 105px;
+  }
+
+  .input-4 {
+    position: relative;
+    bottom: 145px;
+  }
+
+  .chosenData h1 {
+    font-size: 14px;
+    position: relative;
+    top: 82px;
+    left: 25px;
+    color: #fff;
+    /* border: 1px solid; */
+  }
+  .filterDetail-icon {
+    position: relative;
+    top: 50px;
+    left: 180px;
+    /* border: 1px solid; */
+    width: 25px;
   }
 
   .button-gantiMobil {
-    padding: 20px;
-    position: relative;
-    right: 10px;
+    padding-left: 0;
   }
 
   .button-gantiMobil button {
-    font-size: 16px;
-    width: 120px;
-    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    position: relative;
+    right: 5px;
+    bottom: 120px;
   }
 }
 
@@ -162,10 +233,10 @@
 @media screen and (min-width: 769px) and (max-width: 991.5px) {
   .filterDetail-container {
     border: 1px solid rgb(214, 204, 204);
-    width: 820px;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    padding-left: 35px;
+    width: 890px;
+    padding-top: 0;
+    padding-bottom: 0px;
+    padding-left: 45px;
     display: flex;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
@@ -192,8 +263,24 @@
     padding-bottom: 5px;
   }
 
+  .chosenData h1 {
+    font-size: 12px;
+    position: relative;
+    top: 80px;
+    left: 15px;
+    color: #fff;
+    /* border: 1px solid; */
+  }
+  .filterDetail-icon {
+    position: relative;
+    top: 53px;
+    left: 140px;
+    /* border: 1px solid; */
+    width: 25px;
+  }
+
   .filter-content-detail input {
-    width: 150px;
+    width: 170px;
     height: 36px;
     font-size: 12px;
     font-weight: 300;
@@ -217,7 +304,8 @@
 
   .button-gantiMobil {
     padding-left: 12px;
-    padding-top: 22px;
+    padding-right: 45px;
+    padding-top: 0;
   }
 
   .button-gantiMobil button {
@@ -234,40 +322,30 @@
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+
   .filterDetail-container {
-    border: 1px solid rgb(214, 204, 204);
-    width: 1047px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-    background-color: #fff;
     position: relative;
-    left: 0px;
-    bottom: 40px;
+    left: 0;
   }
-  
+
   .filter-container .input {
     padding-bottom: 12px;
   }
-  
+
   .filter-content-detail {
     display: flex;
     flex-direction: column;
     padding-right: 10px;
   }
-  
+
   .filter-content-detail label {
     font-size: 12px;
     font-weight: 300;
     color: #3c3c3c;
     padding-bottom: 5px;
   }
-  
+
   .filter-content-detail input {
     width: 208px;
     height: 36px;
@@ -280,12 +358,12 @@
     padding-left: 10px;
     background-color: #d0d0d0;
   }
-  
+
   .filter-content-detail ::-webkit-input-placeholder {
     /* Edge */
     color: #000;
   }
-  
+
   .dropdown-detail {
     font-size: 12px;
     font-weight: 400;
@@ -298,17 +376,17 @@
     padding-left: 10px;
     background-color: #d0d0d0;
   }
-  
+
   .availability {
     font-size: 12px;
     font-weight: 700;
   }
-  
+
   .button-gantiMobil {
     padding-left: 12px;
-    padding-top: 22px;
+    padding-top: 0;
   }
-  
+
   .button-gantiMobil button {
     font-size: 14px;
     font-weight: 700;

@@ -145,7 +145,7 @@
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .packageDetail-container {
     border: 1px solid #e7e3e3;
     padding-left: 30px;

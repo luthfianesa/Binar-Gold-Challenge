@@ -186,12 +186,12 @@
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .sewaMobil-container {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    width: 1321px;
+    width: 1320px;
   }
   
   .sewaMobil-content-container {

@@ -355,10 +355,10 @@
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .testi-container {
     padding-top: 100px;
-    width: 1321px;
+    width: 1320px;
   }
 
   .txt-testi h1 {

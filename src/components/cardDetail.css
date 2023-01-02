@@ -17,6 +17,7 @@
 }
 
 .card-img-container img {
+  /* padding-top: 20px; */
   width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -66,46 +67,26 @@
 }
 
 /* Responsive for Small Phone */
-@media screen and (min-width:240px) and (max-width: 359px) {
-  
+@media screen and (min-width: 240px) and (max-width: 359px) {
 }
 
 /* Responsive for Medium Phone */
 @media screen and (max-width: 480px) {
   .card-detail-outer-container {
-    padding-left: 0;
-  }
-
-  .card-heading-container {
-    /* padding-bottom: 65px;
-    padding-top: 50px; */
+    padding-left: 6px;
   }
 }
 
 /* Responsive for Large Phone */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .card-detail-outer-container {
-    padding-left: 0;
+    padding-left: 6px;
   }
 
   .card-detail-inner-container {
     width: 250px;
   }
 
-  .card-img-container img {
-    width: 190px;
-  }
-
-  .card-heading-container {
-    /* padding-top: 20px;
-    padding-bottom: 50px; */
-  }
-
-  .card-heading-container h1 {
-    font-size: 16px;
-    font-weight: 700;
-    padding-left: 20px;
-  }
 
   .card-billing-container {
     display: flex;
@@ -128,15 +109,6 @@
     width: 350px;
   }
 
-  .card-img-container img {
-    width: 280px;
-    padding-top: 30px;
-  }
-
-  .card-heading-container {
-    /* padding-top: 30px;
-    padding-bottom: 50px; */
-  }
 
   .card-heading-container h1 {
     font-size: 20px;
@@ -156,12 +128,7 @@
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
-  /* .card-detail-outer-container {
-    padding-top: 102px;
-    padding-left: 0px;
-    border: 1px solid black;
-  } */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .card-detail-inner-container {
     border: 1px solid rgb(246, 238, 238);
     width: 333px;
@@ -171,35 +138,36 @@
     position: relative;
     right: 80px;
   }
-  
+
   .card-img-container {
     display: flex;
     justify-content: center;
   }
-  
+
   .card-img-container img {
-    padding-top: 20px;
-    width: 250px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
-  
+
   .card-heading-container {
-    /* padding-top: 20px;
-    padding-bottom: 70px; */
+    padding-top: 20px;
+    padding-bottom: 70px;
   }
-  
+
   .card-heading-container h1 {
     font-size: 14px;
     font-weight: 700;
     padding-left: 20px;
   }
-  
+
   .card-billing-container {
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
     padding-bottom: 60px;
   }
-  
+
   .card-billing-container h1 {
     font-size: 14px;
     font-weight: 700;

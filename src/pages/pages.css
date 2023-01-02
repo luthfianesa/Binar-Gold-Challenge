@@ -30,7 +30,7 @@
 }
 
 /* Responsive for Small Phone */
-@media screen and (min-width:240px) and (max-width: 359px) {
+@media screen and (min-width: 240px) and (max-width: 359px) {
   .container-for-filter-and-cardFilter {
     width: 359px;
   }
@@ -67,9 +67,9 @@
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .container-for-filter-and-cardFilter {
-    width: 1321px;
+    width: 1320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +93,7 @@
 }
 
 /* Responsive for Small Phone */
-@media screen and (min-width:240px) and (max-width: 359px) {
+@media screen and (min-width: 240px) and (max-width: 359px) {
   .empty-header {
     width: 359px;
   }
@@ -107,6 +107,8 @@
 
 /* Responsive for Medium Phone */
 @media screen and (max-width: 480px) {
+ 
+
   .filter-detail-outer-container {
     display: flex;
     justify-content: center;
@@ -165,19 +167,18 @@
 }
 
 /* Responsive for Laptop and Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1321px) {
+@media screen and (min-width: 992px) and (max-width: 1320px) {
   .empty-header {
-    width: 1321px;
+    width: 1320px;
   }
 
   .filter-detail-outer-container {
-    width: 1321px;
+    width: 1320px;
     display: flex;
     justify-content: center;
-  
   }
   .detail-info-container {
-    width: 1321px;
+    width: 1320px;
     display: flex;
     justify-content: center;
   }

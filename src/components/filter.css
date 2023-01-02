@@ -19,6 +19,12 @@
   bottom: 40px;
 }
 
+/* .filter-container :hover {
+  box-shadow: 0 0 0 10000px rgb(0 0 0 / 60%);
+    transition: box-shadow .5s;
+    -webkit-transition: box-shadow .5s;
+} */
+
 .filter-container .input {
   padding-bottom: 12px;
 }
@@ -26,7 +32,6 @@
 .filter-container :hover {
   box-shadow: none;
 }
-
 
 .filter-content {
   display: flex;
@@ -68,6 +73,7 @@
   border-radius: 3px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   padding-left: 10px;
+  
 }
 
 /* Tried to change the text colour of dropdown disabled option to grey, but nothing works  */
@@ -115,6 +121,9 @@
 
 /* Responsive for Medium Phone */
 @media screen and (max-width: 480px) {
+  /* .filter-outer-container{
+   
+  } */
   .filter-container {
     display: flex;
     flex-direction: column;
@@ -130,20 +139,23 @@
     align-items: center;
   }
 
-
-  .filter-content input {
-    color: #000 !important;
-    font-weight: 400;
-  }
-
   .filter-content ::-webkit-input-placeholder {
-    color: #000 !important;
-    font-weight: 300 !important;
+    /* Edge */
+    color: #000000
   }
+
 
   .dropdown {
-    background-color: #fff !important;
-    font-weight: 300 !important;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    width: 208px;
+    height: 36px;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+    
   }
 
   .button-cariMobil {
@@ -178,14 +190,9 @@
     font-size: 16px;
   }
 
-  .filter-content ::-webkit-input-placeholder {
-    color: #000 !important;
-  }
-
   .dropdown {
     width: 350px;
     font-size: 16px;
-    background-color: #fff !important;
   }
 
   .filter-content label {
@@ -266,7 +273,6 @@
     border-radius: 3px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     padding-left: 10px;
-    background-color: #fff !important;
   }
   
   
@@ -355,7 +361,6 @@
     border-radius: 3px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     padding-left: 10px;
-    background-color: #fff !important;
   }
   
   .availability {

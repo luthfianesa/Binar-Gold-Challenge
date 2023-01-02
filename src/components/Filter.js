@@ -35,10 +35,10 @@ const Filter = (props) => {
         <label>Status</label>
         <select onClick={props.fStatus} name="status" id="status" className="dropdown">
           <option value="" disabled selected hidden>
-            Cek Ketersediaan
+            Cek Ketersedian
           </option>
-          <option value="true">Tersedia</option>
-          <option value="false">Disewa</option>
+          <option value="true">Disewa</option>
+          <option value="false">Tersedia</option>
         </select>
       </div>
       <div className="button-cariMobil">

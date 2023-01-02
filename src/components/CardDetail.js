@@ -13,6 +13,7 @@ const CardDetail = () => {
     axios
       .get(`https://bootcamp-rent-cars.herokuapp.com/customer/car/${id}`)
       .then((res) => {
+        // console.log(res)
         setCar(res.data);
       })
       .catch((err) => console.log(err.message));
