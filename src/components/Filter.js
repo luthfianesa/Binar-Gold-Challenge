@@ -24,10 +24,11 @@ const Filter = (props) => {
         <label>Harga Sewa</label>
         <select onClick={props.fMinPrice} name="price" id="price" className="dropdown">
           <option value="" disabled selected hidden>
-            Masukan Harga Sewa Per Hari
+            Pilih Harga Sewa Per Hari
           </option>
-          <option value="10000000">&#60; Rp 1.000.000 </option>
-          <option value="1000000">&#62; Rp 1.000.000</option>
+          <option value="400000"> &#60; Rp 500.000 </option>
+          <option value="500000"> Rp 500.000 </option>
+          <option value="600000">&#62; Rp 500.000</option>
         </select>
       </div>
       <div className="filter-content input availability">
