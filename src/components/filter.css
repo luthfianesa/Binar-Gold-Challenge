@@ -41,7 +41,7 @@
 
 .filter-content label {
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 100;
   color: #3c3c3c;
   padding-bottom: 5px;
 }
@@ -50,7 +50,7 @@
   width: 208px;
   height: 36px;
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 300 !important;
   color: #000;
   border: 1px solid rgb(195, 181, 181);
   border-radius: 3px;
@@ -61,14 +61,13 @@
 .filter-content ::-webkit-input-placeholder {
   /* Edge */
   color: #000;
-  font-size: 12px !important;
-  font-weight: 700px !important;
+  font-weight: 0 !important;
 }
 
 .dropdown {
   font-size: 12px !important;
   font-weight: 400 !important;
-  color: rgb(196, 65, 65) !important;
+  color: #000 !important;
   width: 208px !important;
   height: 36px !important;
   border: 1px solid rgb(195, 181, 181) !important;
@@ -143,14 +142,13 @@
 
   .filter-content ::-webkit-input-placeholder {
     /* Edge */
-    color: #000000;
+    color: #000;
   }
 
   .dropdown {
     font-size: 12px;
-    font-weight: 0 !important;
-    /* color: #000; */
-    color: #3c3c3c !important;
+    font-weight: 400;
+    color: #000;
     width: 208px !important;
     height: 36px;
     border: 1px solid rgb(195, 181, 181);
