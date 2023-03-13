@@ -41,7 +41,7 @@
 
 .filter-content label {
   font-size: 12px;
-  font-weight: 100;
+  font-weight: 300 !important;
   color: #3c3c3c;
   padding-bottom: 5px;
 }
@@ -50,7 +50,7 @@
   width: 208px;
   height: 36px;
   font-size: 12px;
-  font-weight: 300 !important;
+  font-weight: 500 !important;
   color: #000;
   border: 1px solid rgb(195, 181, 181);
   border-radius: 3px;
@@ -61,12 +61,12 @@
 .filter-content ::-webkit-input-placeholder {
   /* Edge */
   color: #000;
-  font-weight: 0 !important;
+  font-weight: 100 !important;
 }
 
 .dropdown {
   font-size: 12px !important;
-  font-weight: 400 !important;
+  font-weight: 100 !important;
   color: #000 !important;
   width: 208px !important;
   height: 36px !important;
