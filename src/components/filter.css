@@ -146,9 +146,9 @@
 
   .dropdown {
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 0 !important;
     /* color: #000; */
-    color: #3c3c3c;
+    color: #3c3c3c !important;
     width: 208px !important;
     height: 36px;
     border: 1px solid rgb(195, 181, 181);
