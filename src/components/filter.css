@@ -49,8 +49,8 @@
 .filter-content input {
   width: 208px;
   height: 36px;
-  font-size: 12px;
-  font-weight: 300 !important;
+  font-size: 13px;
+  font-weight: 400 !important;
   color: #000;
   border: 1px solid rgb(195, 181, 181);
   border-radius: 3px;
@@ -84,8 +84,8 @@
 }
 
 .dropdown .dropdown-option {
-  font-size: 12px !important;
-  font-weight: 300 !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
 }
 
 
