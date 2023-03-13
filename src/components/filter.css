@@ -50,7 +50,7 @@
   width: 208px;
   height: 36px;
   font-size: 12px;
-  font-weight: 500 !important;
+  font-weight: 300 !important;
   color: #000;
   border: 1px solid rgb(195, 181, 181);
   border-radius: 3px;
@@ -66,7 +66,7 @@
 
 .dropdown {
   font-size: 12px !important;
-  font-weight: 500 !important;
+  font-weight: 300 !important;
   color: #000 !important;
   width: 208px !important;
   height: 36px !important;

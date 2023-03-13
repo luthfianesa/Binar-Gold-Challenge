@@ -39,7 +39,7 @@ const Filter = (props) => {
       <div className="filter-content input availability">
         <label>Status</label>
         <Form.Select onClick={props.fStatus} name="status" id="status" className="dropdown">
-          <option value="" disabled selected hidden className="dropdown-placeholder">
+          <option value="" disabled selected hidden>
             <span className="dropdown-placeholder">Cek Ketersediaan</span>
           </option>
           <option value="">Cek Ketersediaan</option>
