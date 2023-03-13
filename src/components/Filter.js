@@ -28,7 +28,7 @@ const Filter = (props) => {
       <div className="filter-content input">
         <label>Harga Sewa</label>
         <Form.Select onChange={props.fPrice} className="dropdown">
-          <option value="default">Pilih Harga Sewa Per Hari</option>
+          <option value="default" className="dropdown-placeholder">Pilih Harga Sewa Per Hari</option>
           <option value="cheap"> &lt; Rp. 400.000</option>
           <option value="middle">Rp. 400.000 - Rp. 600.000</option>
           <option value="expensive"> &gt; Rp. 600.000</option>
@@ -39,7 +39,7 @@ const Filter = (props) => {
       <div className="filter-content input availability">
         <label>Status</label>
         <Form.Select onClick={props.fStatus} name="status" id="status" className="dropdown">
-          <option value="" disabled selected hidden>
+          <option value="" disabled selected hidden className="dropdown-placeholder">
             Cek Ketersediaan
           </option>
           <option value="">Cek Ketersediaan</option>
