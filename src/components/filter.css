@@ -60,7 +60,7 @@
 
 .filter-content ::-webkit-input-placeholder {
   /* Edge */
-  color: #000;
+  color: #3c3c3c !important;
   font-size: 12px !important;
   font-weight: 300 !important;
 }
@@ -78,6 +78,7 @@
 }
 
 .dropdown-placeholder {
+  color: #3c3c3c !important;
   font-size: 12px !important;
   font-weight: 300 !important;
 }
