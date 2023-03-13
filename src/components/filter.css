@@ -77,18 +77,16 @@
   padding-left: 10px;
 }
 
-.dropdown-placeholder {
-  color: #3c3c3c !important;
-  font-size: 12px !important;
-  font-weight: 300 !important;
-}
-
 .dropdown .dropdown-option {
   font-size: 13px !important;
   font-weight: 400 !important;
 }
 
-
+.dropdown .dropdown-placeholder {
+  color: #3c3c3c !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+}
 
 /* Tried to change the text colour of dropdown disabled option to grey, but nothing works  */
 
@@ -152,7 +150,6 @@
     align-items: center;
   }
 
-
   .dropdown {
     width: 208px !important;
     padding-left: 10px;
@@ -188,7 +185,6 @@
   .filter-content input {
     width: 350px;
     font-size: 13px;
-    
   }
 
   .dropdown {
