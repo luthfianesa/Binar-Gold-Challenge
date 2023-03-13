@@ -61,12 +61,14 @@
 .filter-content ::-webkit-input-placeholder {
   /* Edge */
   color: #000;
+  font-size: 12px !important;
+  font-weight: 700px !important;
 }
 
 .dropdown {
   font-size: 12px !important;
   font-weight: 400 !important;
-  color: #000 !important;
+  color: rgb(196, 65, 65) !important;
   width: 208px !important;
   height: 36px !important;
   border: 1px solid rgb(195, 181, 181) !important;
