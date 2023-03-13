@@ -66,8 +66,8 @@
 }
 
 .dropdown {
-  font-size: 12px !important;
-  font-weight: 300 !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
   color: #000 !important;
   width: 208px !important;
   height: 36px !important;
@@ -85,7 +85,7 @@
 
 .dropdown .dropdown-option {
   font-size: 13px !important;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
 }
 
 
