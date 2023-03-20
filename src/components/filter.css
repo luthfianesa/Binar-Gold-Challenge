@@ -58,6 +58,11 @@
   padding-left: 10px;
 }
 
+/* input, textarea, select { 
+  outline: none;
+} */
+
+
 .filter-content ::-webkit-input-placeholder {
   /* Edge */
   color: #000 !important;

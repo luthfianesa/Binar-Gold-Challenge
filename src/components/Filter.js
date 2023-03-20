@@ -18,8 +18,12 @@ const Filter = (props) => {
             <span className="dropdown-placeholder">Masukan Kapasitas Mobil</span>
           </option>
           <option value="">Masukan Kapasitas Mobil</option>
-          <option value="small" className="dropdown-option">2 - 4 Orang</option>
-          <option value="Medium" className="dropdown-option">4 - 6 Orang</option>
+          <option value="small" className="dropdown-option">
+            2 - 4 Orang
+          </option>
+          <option value="Medium" className="dropdown-option">
+            4 - 6 Orang
+          </option>
           <option value="large">6 - 8 Orang</option>
         </Form.Select>
       </div>
@@ -28,7 +32,9 @@ const Filter = (props) => {
       <div className="filter-content input">
         <label>Harga Sewa</label>
         <Form.Select onChange={props.fPrice} className="dropdown">
-          <option value="" ><span className="dropdown-placeholder">Pilih Harga Sewa Per Hari</span></option>
+          <option value="">
+            <span className="dropdown-placeholder">Pilih Harga Sewa Per Hari</span>
+          </option>
           <option value="cheap"> &lt; Rp. 400.000</option>
           <option value="middle">Rp. 400.000 - Rp. 600.000</option>
           <option value="expensive"> &gt; Rp. 600.000</option>
@@ -56,4 +62,3 @@ const Filter = (props) => {
 };
 
 export default Filter;
-
